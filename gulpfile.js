@@ -19,16 +19,16 @@ gulp.task("default", function () {
 });
 gulp.task("scssToCss", function () {
     return gulp
-        .src("./css/*.scss")
+        .src("./style-parts/*.scss")
         .pipe(sass())
-        .pipe(concatCss("style.css"))
+        .pipe(concatCss("./main-style/style.css"))
         .pipe(gulp.dest('./build/'))
         .pipe(refresh());
 });
 
 gulp.task("watch", function () {
     gulp.watch("./js/*.js", gulp.series("default"));
-    gulp.watch("./css/*.scss", gulp.series("scssToCss"));
+    gulp.watch("./style-parts/*.scss", gulp.series("scssToCss"));
 });
 
       //   .pipe(terser())

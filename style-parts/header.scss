@@ -1,0 +1,34 @@
+.header {
+  background-image: url(../images/aleksandra-khaprenko-1300874-unsplash.jpg);
+  background-attachment: fixed;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 900;
+}
+.header-title {
+  padding: 30px 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title h2 {
+  font-family: 'montserrat';
+  font-weight: 200;
+  font-size: 50px;
+  color: #393743c2;
+  margin:.3em 0 0 0;
+  border-bottom: .5px solid #07060d6e;
+}
+.header-title  h3 {
+  font-family: 'Lora';
+  font-weight: 100;
+  font-size: 18px;
+  color: #393743bc;
+}
