@@ -1,0 +1,56 @@
+.st0 {
+  fill: none;
+}
+
+.st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  font-family: 'Montserrat-Regular';
+}
+
+.st3 {
+  font-size: 100px;
+}
+
+.st4 {
+  font-family: 'Lora-Regular';
+}
+
+.st5 {
+  font-size: 33px;
+}
+
+.st6 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st0, .st1, .st2, .st3, .st4, .st5, .st6{
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 5s cubic-bezier(0,0.23,1,.1)
+}
+
+@keyframes animate {
+  0% {
+    opacity:0;
+    fill: none;
+    stroke-dashoffset: 2000;
+  }
+  30% {
+    opacity:7;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  100% {
+    opacity:10;
+    fill: none;
+    stroke-dashoffset: 0;
+  }
+}

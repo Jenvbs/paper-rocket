@@ -1,224 +1,168 @@
-.contact-wrapper {
-  position: relative;
+.design {
+  height: 400px;
+  width: 95%;
+  margin: 100px auto;
+  padding-top: 200px;
 }
 
-.content-contact {
-  padding-top: 55px;
-  height: 250px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background-color: #ffffff;
-  z-index: 50;
-}
-
-.content-contact::after {
-  content: '';
-  background-color: #ffffff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transform: skewY(355deg);
-  transform-origin: 100%;
-  z-index: -1;
-  padding-bottom: 150px;
-}
-
-.social-links-wrapper {
-  width: 50%;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  border-bottom: .5px solid #07060d6e;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.social-links {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.social-links a {
-  font-size: 15px;
-  color: #07060d;
-  margin: .3em 0 0 0;
-}
-
-.social-links a:hover {
-  color: rgba(178, 178, 178, 0.9);
-}
-
-.contact-details {
-  min-width: 30%;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.contact-details h3 {
-  font-family: 'Lora';
-  font-weight: 100;
-  font-size: 15px;
-  color: #4e4c5e;
-}
-
-.contact-details .email {
-  margin-left: 10px;
-}
-
-.contact-details .email a {
-  font-size: 15px;
-  color: #4e4c5e;
-  margin: .3em 0 0 0;
-  text-decoration: none;
-}
-
-.contact-details .email a:hover {
-  color: rgba(178, 178, 178, 0.9);
-}
-.header {
-  background-image: url("../../images/aleksandra-khaprenko-1300874-unsplash.jpg");
-  background-attachment: fixed;
-  height: 350px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 900;
-}
-
-.header-title {
-  padding: 30px 50px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 2px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-title h2 {
-  font-family: 'montserrat';
-  font-weight: 200;
-  font-size: 50px;
-  color: #393743c2;
-  margin: .3em 0 0 0;
-  border-bottom: .5px solid #07060d6e;
-}
-
-.header-title h3 {
-  font-family: 'Lora';
-  font-weight: 100;
-  font-size: 18px;
-  color: #393743bc;
-}
-body {
+.design-wrapper {
   margin: 0;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.artdirection-grid {
-  grid-auto-rows: 10px 10px 380px;
-  padding-left: 30px;
+
+.design-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .noodle {
+  opacity: .7;
   background-image: url("/images/potnoodle.jpg");
+  background-position: center;
   grid-column: 1/span 1;
-  grid-row: 3/span 1;
 }
 
-.noodle:hover {
-  background-image: url("/images/potnoodle-overlay.jpg");
-}
-
-.armour {
+.ua {
+  opacity: .7;
   background-image: url("/images/rmr.jpg");
+  background-position: center;
   grid-column: 2/span 1;
-  grid-row: 2/span 2;
 }
 
-.armour:hover {
-  background-image: url("/images/rmr-overlay.jpg");
-}
-
-.sauc {
+.saucony {
+  opacity: .7;
   background-image: url("/images/saucony.jpg");
+  background-position: top;
   grid-column: 3/span 1;
-  grid-row: 1/span 3;
 }
 
-.sauc:hover {
-  background-image: url("/images/saucony-overlay.jpg");
+.design-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.webdev-grid {
-  grid-auto-rows: 380px 10px 10px;
-  padding: 0 30px 0 0;
+.design-title h2 {
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+  margin: 0;
+}
+
+/*
+.i {
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.616);
+  border-width: 0 2px 2px 0;
+  padding: 10px;
+  width:5px;
+  height:5px;
+
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.down {
+  margin:100px auto 50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+*/
+
+.web-dev {
+  height: 400px;
+  width: 95%;
+  margin: 200px auto 100px auto;
+}
+
+.dev-wrapper {
+  margin: 0;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dev-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .instanews {
+  opacity: .7;
   background-image: url("/images/instanews.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -150px;
   grid-column: 1/span 1;
-  grid-row: 1/span 3;
-}
-
-.instanews:hover {
-  background-image: url("/images/instanews-overlay.jpg");
 }
 
 .aloha {
+  opacity: .7;
   background-image: url("/images/aloah.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -90px;
   grid-column: 2/span 1;
-  grid-row: 1/span 2;
-}
-
-.aloha:hover {
-  background-image: url("/images/aloah-overlay.jpg");
 }
 
 .merrell {
+  opacity: .7;
   background-image: url("/images/merrell.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
   grid-column: 3/span 1;
-  grid-row: 1/span 1;
 }
 
-.merrell:hover {
-  background-image: url("/images/merrell-overlay.jpg");
+.dev-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu-wrapper {
-  z-index: -20;
-  position: absolute;
-  width: 100%;
+.dev-title h2 {
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+  margin: 0;
 }
 
-.images-wrapper {
+.header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
   margin: 0 auto;
 }
 
-.images-grid {
-  padding-top: 70px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px 20px;
-  list-style-type: none;
-  width: 60%;
-  height: 540px;
+.grid {
+  margin-right: 25px;
 }
 
-.images-grid li {
+.grid .images-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 50px;
+  list-style-type: none;
+  width: 90%;
+  height: 250px;
+}
+
+.grid .images-grid li {
+  list-style: none;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
@@ -226,74 +170,203 @@ body {
   height: 100%;
   filter: grayscale(100%);
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.images-grid li a {
-  visibility: hidden;
-}
-
-.images-grid li:hover {
-  filter: grayscale(0);
-}
-
-.images-grid li:hover a {
-  padding: 15px 25px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 2px;
-  visibility: visible;
-  text-decoration: none;
-  text-align: center;
-}
-
-.images-grid li:hover a h3 {
-  font-family: 'montserrat';
-  font-weight: 200;
+.grid .images-grid li a {
+  padding: 32% 25%;
   font-size: 16px;
-  width: 150px;
-  color: #393743c2;
-}
-
-.artdirection-title,
-.webdev-title {
   display: flex;
-  align-items: center;
+  text-align: center;
+  visibility: hidden;
+  align-content: center;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  height: 250px;
+  width: 100%;
 }
 
-.artdirection-title h2,
-.webdev-title h2 {
-  font-family: 'montserrat';
-  font-weight: 200;
-  font-size: 50px;
-  color: #393743c2;
-  margin-left: 5%;
+.grid .images-grid li:hover a {
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.535);
 }
-.work-divider {
-  height: 200px;
-  background-image: url("../../images/aleksandra-khaprenko-1300874-unsplash.jpg");
-  background-attachment: fixed;
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("../../images/background.jpg");
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: skewY(355deg);
-  margin-top: 4.3%;
+}
+.st0 {
+  fill: none;
 }
 
-.work-title {
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+.st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  font-family: 'Montserrat-Regular';
+}
+
+.st3 {
+  font-size: 100px;
+}
+
+.st4 {
+  font-family: 'Lora-Regular';
+}
+
+.st5 {
+  font-size: 33px;
+}
+
+.st6 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.st0,
+.st1,
+.st2,
+.st3,
+.st4,
+.st5,
+.st6 {
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 5s cubic-bezier(0, 0.23, 1, 0.1);
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 2000;
+  }
+
+  30% {
+    opacity: 7;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+
+  100% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 0;
+  }
+}
+
+.site-title {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.work-title > h2 {
-  font-family: 'montserrat';
-  font-weight: 200;
+.title-wrapper {
+  margin: 0 auto;
+  padding-left: 50px;
+  width: 80%;
+}
+
+svg a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+svg a:hover {
+  fill: #ffffff;
+}
+
+.devarrow:hover {
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+.designarrow:hover {
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+.designarrow:hover tspan {
+  fill: #ffffff;
+}
+
+.contact-wrapper {
+  position: relative;
+}
+
+.content-contact {
+  width: 30%;
+}
+
+.social-links-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-links a {
+  font-size: 15px;
+  color: #ffffff69;
+  margin: .3em 0 0 0;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+}
+.ua-body {
+  width: 100%;
+  background-image: none;
+}
+
+img {
+  width: 90%;
+  padding: 50px 5%;
+}
+
+.ua-main {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.ua-main h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
   font-size: 50px;
-  color: #393743c2;
-  margin-left: 5%;
-  transform: rotate(-355deg);
+  color: #000000ce;
+  border-bottom: 1px solid #000000ce;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.ua-main h2 {
+  color: #000000ce;
+  font-family: 'Lora';
+  font-weight: 300;
 }

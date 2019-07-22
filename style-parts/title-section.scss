@@ -1,0 +1,69 @@
+@import './svg';
+
+.site-title{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-wrapper{
+margin:0 auto;
+padding-left: 50px;
+width:80%;
+}
+svg{
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  a:hover {
+    fill: #ffffff;
+  }
+}
+.devarrow:hover{
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+.designarrow:hover {
+  cursor: pointer;
+  fill: #ffffff;
+  tspan{
+    fill: #ffffff;
+  }
+}
+
+
+.contact-wrapper {
+  position: relative;
+}
+
+.content-contact{
+  width:30%;
+}
+.social-links-wrapper{
+  width:100%;
+  margin: 0 auto;
+  padding-bottom:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-links {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    font-size: 15px;
+    color: #ffffff69;
+    margin:.3em 0 0 0;
+  }
+
+  a:hover {
+    color: #ffffff;
+  }
+}

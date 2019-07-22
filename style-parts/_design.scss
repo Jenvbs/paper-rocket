@@ -1,0 +1,83 @@
+
+.design{
+  height:400px;
+  width:95%;
+  margin:100px auto;
+  padding-top:200px;
+}
+
+.design-wrapper{
+  margin:0;
+  height:70%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  header{
+
+  }
+}
+
+.design-content{
+
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.noodle{
+  opacity: .7;
+  background-image: url(/images/potnoodle.jpg);
+  background-position: center;
+  grid-column: 1/span 1;
+}
+.ua{
+  opacity: .7;
+  background-image: url(/images/rmr.jpg);
+  background-position: center;
+  grid-column: 2/span 1;
+}
+.saucony{
+  opacity: .7;
+  background-image: url(/images/saucony.jpg);
+  background-position: top;
+  grid-column: 3/span 1;
+}
+
+
+.design-title{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  h2 {
+    text-align: right;
+    font-family:'Montserrat';
+    font-weight:300;
+    color:rgb(255, 255, 255);
+    font-size:50px;
+    margin:0;
+  }
+}
+
+/*
+.i {
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.616);
+  border-width: 0 2px 2px 0;
+  padding: 10px;
+  width:5px;
+  height:5px;
+
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.down {
+  margin:100px auto 50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+*/
